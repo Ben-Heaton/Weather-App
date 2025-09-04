@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        
+        <link rel="stylesheet" href="weatherApp.css">
+    </head>
+
+    <body>
+        <video autoplay muted loop src="media\video\cloud_blanket.mp4"></video>
+
+        <div id="app">
+            <h1>What is the weather like in London today?</h1>
+            <br>
+            <button id="app_button" onclick="getWeather()">Click me to find out!</button>
+            <br>
+            <p>City: <span id="app_city_Span">placeholder</span></p>
+            <br>
+            <p>Temperature: <span id="app_temperature_Span">placeholder</span></p>
+            <br>
+            <p>Description: <span id="app_description_Span">placeholder</span></p>
+            
+        </div>
+
+        <script src=".\weatherApp.js"></script> <!-- Put any scripts at the bottom to give the HTML elements chance to render -->
+    </body>
+</html>

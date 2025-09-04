@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* centers content vertically within the div */
+    align-items: center;      /* centers content horizontally within the div */
+}
+
+video {
+    position: fixed;
+    z-index: -1;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* centers content vertically within the div */
+    align-items: center;      /* centers content horizontally within the div */
+    z-index: 1;
+    background-color: whitesmoke;
+    max-width: fit-content;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+    min-width: 260px;
+
+}
+
+#app_button {
+    font-size: 1.5vw;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+
+}
+
+#app_button:hover {   /* Hover = The mouse is hovering over the link. */
+    color: blue;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: black;
+
+}
+
+#app_button:active { /* The link is being clicked (mousedown). */
+    color: blue;
+    box-shadow: 1px 1px 1px black;
+    text-decoration: black;
+
+}
