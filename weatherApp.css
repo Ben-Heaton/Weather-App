@@ -31,6 +31,13 @@ video {
 
 }
 
+#city_selector {
+    text-align: center;
+    font-size: 1.5vw
+
+}
+
+
 #app_button {
     font-size: 1.5vw;
     padding: 10px;
