@@ -1,6 +1,7 @@
 function getWeather() {
+    let CITY = document.getElementById('city_selector').value;
     const API_KEY = '###';
-    const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${API_KEY}&units=metric`;
+    const API_URL = `https://api.openweathermap.org/data/2.5/weather?q=${CITY}&appid=${API_KEY}&units=metric`;
     
     console.log('Request sent');
 
@@ -20,3 +21,4 @@ function getWeather() {
             alert('Something went wrong getting the weather!');
         });
 }
+

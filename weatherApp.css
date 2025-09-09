@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -27,9 +28,15 @@ video {
     font-family: Verdana, Arial, sans-serif;
     font-weight: bold;
     font-size: 1vw;
-    min-width: 260px;
 
 }
+
+#city_selector {
+    text-align: center;
+    font-size: 1.5vw
+
+}
+
 
 #app_button {
     font-size: 1.5vw;
@@ -50,5 +57,19 @@ video {
     color: blue;
     box-shadow: 1px 1px 1px black;
     text-decoration: black;
+
+}
+
+/* ---- Media Queries ----------------------------------------------------------------------------------------------- */
+
+ /* For small to large mobile screens. */
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    
+    #app_button {
+        font-size: 1.5vw;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px black;
+    }
 
 }
